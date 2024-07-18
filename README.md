@@ -23,11 +23,11 @@ EdX course
 - R, Python, Google Earth Engine
   
  ## Remote Sensing Imagery Sources
-- NASA Earth
-- GIOVANNI NASA
-- MODIS
-- 
-- GEDI
+- ### NASA Earth Data
+- GIOVANNI NASA (IMERGM_07 NETCDF precipitation data)
+- MODIS (NDVI data for drought assessment)
+- GEDI (
+- Google Earth Engine (Landsat 8, SRTM Global Elevation data,
 
 ## Online Courses
 - NASA Applied Remote Sensing Training
