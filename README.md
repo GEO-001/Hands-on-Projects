@@ -1,16 +1,16 @@
-## project-summary
+# project-summary
 This repository summarizes my hands-on projects across Statistical Analysis, GIS, Remote Sensing.
-# Softwares
+## Softwares
 - QGIS, ArcGIS Pro,
 - R, Python, Google Earth Engine
 
-# Online Courses
+## Online Courses
 - NASA Applied Remote Sensing Training
 - Youtube.com
 - GitHub repositories
 - LinkedIn Learning
   
- # Remote Sensing Imagery Sources
+ ## Remote Sensing Imagery Sources
 - NASA Earth
 - GIOVANNI NASA
 - MODIS
