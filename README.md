@@ -18,7 +18,7 @@ EdX course
 - Salary expectation prediction using Linear regression
 
 ## Tools and References
-
+The following tools, sources, and learning platforms have the achievement of the aforementioned projects and have augmented my expertise in GIS & Remote Sensing.
 ### Softwares
 - GIS: QGIS, ArcGIS Pro
 - Computing & Processing: R, Python, Google Earth Engine
