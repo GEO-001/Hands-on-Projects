@@ -1,4 +1,4 @@
-# Summary
+# Introduction
 This repository summarizes my hands-on projects in GIS & Remote Sensing applications in Forest management and environmental conservation.
 ## Projects
 - Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria
