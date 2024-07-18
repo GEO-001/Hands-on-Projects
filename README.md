@@ -19,14 +19,15 @@ EdX course
 - Salary expectation prediction using Linear regression
   
 ## Softwares
-- QGIS, ArcGIS Pro, Drone2Map, InVEST, WebODM, QGround Control
-- R, Python, Google Earth Engine
+- ####GIS: QGIS, ArcGIS Pro
+- Computing & Processing: R, Python, Google Earth Engine
+- Flight Planning & UAV Imagery processing: Drone2Map, InVEST, WebODM, QGround Control
   
  ## Remote Sensing Imagery Sources
 - ### NASA Earth Data
-- GIOVANNI NASA (IMERGM_07 NETCDF precipitation data)
-- MODIS (NDVI data for drought assessment)
-- GEDI (
+- GIOVANNI IMERGM_07 NETCDF precipitation data
+- MODIS NDVI data for drought assessment
+- GEDI LiDAR data
 - Google Earth Engine (Landsat 8, SRTM Global Elevation data,
 
 ## Online Courses
