@@ -1,5 +1,5 @@
 # Summary
-This repository summarizes my hands-on projects in Forest Monitoring, across Statistical Analysis, GIS, and Remote Sensing including tools and references to guided learnings.
+This repository summarizes my hands-on projects in Forest Monitoring, across Statistical Analysis, GIS, and Remote Sensing including tools and references to guided learning.
 
 ## Projects
 - Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria
@@ -7,14 +7,13 @@ This repository summarizes my hands-on projects in Forest Monitoring, across Sta
 - Supervised classification of Calaveras, CA, USA using Machine learning
 - Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA.
 - Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR
-- Monitoring & mAPPING Carbon(iv)oxide fluxes using OCO2 & OCO3 Satellite Data
+- Monitoring & Mapping Carbon(iv)oxide fluxes using OCO2 & OCO3 Satellite Data
 - 2015 Drought Assessment in California, USA
-- Triangular Vegetative index classification of Quinoa
-  To assess fertilizer performance on the growth of Quinoa
+- Triangular Greenness Vegetative Index classification <br> To assess fertilizer performance on Quinoa
 - Soil pH classification
   To determine optimum liming rates (CaO addition) for soil acidity rectification
-- Unmanned Aerial Vehicle (UAV)/Drone Flight Planning
-Flight planning to ...............
+- Unmanned Aerial Vehicle (UAV)/Drone Flight Planning<br>
+Flight planning to ...............<br>
 EdX course
 - Mapping of Study Area locations for undergraduate research projects at the Federal University of Agriculture, Abeokuta, (FUNAAB) Ogun, Nigeria.
 - Salary expectation prediction using Linear regression
@@ -34,12 +33,12 @@ EdX course
 
 ## Guided Learning Platforms (MOOCS)
 - NASA Applied Remote Sensing Training
-- Youtube.com
-- Wageningen University
+- Coursera
+- EdX - Wageningen University & Research
 - GEO University, China
 - Geoversity, University of Twente, ITC, Netherlands
-- 
 - GitHub repositories
+- Youtube.com
 - LinkedIn Learning
 - Great Learning Academy
   
