@@ -1,6 +1,5 @@
 # Summary
-This repository summarizes my hands-on projects in Forest Monitoring, across Statistical Analysis, GIS, and Remote Sensing including tools and references to guided learning.
-
+This repository summarizes my hands-on projects in GIS & Remote Sensing applications in Forest management and environmental conservation.
 ## Projects
 - Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria
 - Random Forest classification of Cumberland County, Maine, USA
@@ -17,21 +16,23 @@ Flight planning to ...............<br>
 EdX course
 - Mapping of Study Area locations for undergraduate research projects at the Federal University of Agriculture, Abeokuta, (FUNAAB) Ogun, Nigeria.
 - Salary expectation prediction using Linear regression
-  
-## Softwares
+
+## Tools and References
+
+### Softwares
 - GIS: QGIS, ArcGIS Pro
 - Computing & Processing: R, Python, Google Earth Engine
 - Flight Planning & UAV Imagery processing: Drone2Map, WebODM, QGround Control
 - Ecosystem Services Modeling: InVEST
   
- ## Remote Sensing Imagery Sources
-- ### NASA Earth Data
+### Remote Sensing Imagery Sources
+- NASA Earth Data
 - GIOVANNI IMERGM_07 NETCDF precipitation data
 - MODIS NDVI data for drought assessment
 - GEDI LiDAR data
 - Google Earth Engine (Landsat 8, SRTM Global Elevation data,
 
-## Guided Learning Platforms (MOOCS)
+### Guided Learning Platforms (MOOCS)
 - NASA Applied Remote Sensing Training
 - Coursera
 - EdX - Wageningen University & Research
