@@ -4,6 +4,7 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](salary-prediction.ipynb)
 - Random Forest classification of Cumberland County, Maine, USA
 - Supervised classification of Calaveras, CA, USA using Machine learning
+- Mapping global forest canopy height through integration of GEDI and Landsat data.
 - Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA.
 - Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR
 - Monitoring & Mapping Carbon(iv)oxide fluxes using OCO2 & OCO3 Satellite Data
