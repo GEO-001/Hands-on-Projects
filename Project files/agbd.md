@@ -58,16 +58,16 @@ _Both flags should be set to zero, indicating clear conditions_ <br>
   `var mask = qa.bitwiseAnd(cloudBitMask).eq(0).and(` <br>
             `qa.bitwiseAnd(cirrusBitMask).eq(0));` <br>
 
-_Return the masked and scaled data_
+_Return the masked and scaled data_ <br>
   `return image.updateMask(mask).divide(10000);` <br>
 }` <br>
 
-__Filter clouds from Sentinel-2 for a given period__
-`var composite = s2.filterDate('2024-01-01', '2024-01-31')
-                  // Pre-filter to get less cloudy granules.
-                  .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))
-                  .map(maskS2clouds)
-                  .select('B2', 'B3', 'B4','B5','B6','B7','B8','B11', 'B12'); ` <br>
+_Filter clouds from Sentinel-2 for a given period_ <br>
+`var composite = s2.filterDate('2024-01-01', '2024-01-31')` <br>
+                    _Pre-filter to get less cloudy granules_ <br>
+                  `.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))` <br>
+                  `.map(maskS2clouds)` <br>
+                  `.select('B2', 'B3', 'B4','B5','B6','B7','B8','B11', 'B12'); ` <br>
 
 __Reproject to WGS 84 UTM zone 32n__           
 `var S2_composite = composite.median().reproject({crs: 'EPSG:32632', scale: 60});` <br>
