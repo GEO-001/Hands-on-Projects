@@ -18,18 +18,17 @@ __Load Sentinel-1 for the post-rainy season__<br>
     .filterBounds(aoi);` <br>
 
 __Prepare inter-quartile range (IQR)__
-var S1_PRS_pc = S1_PRS.reduce(ee.Reducer.percentile([25,50,75]));
+`var S1_PRS_pc = S1_PRS.reduce(ee.Reducer.percentile([25,50,75]));`
 
 __Convert to natural units (linear units, which can be averaged)__
-var S1_PRS_pc = ee.Image(10).pow(S1_PRS_pc.divide(10));
+`var S1_PRS_pc = ee.Image(10).pow(S1_PRS_pc.divide(10));
+var S1_PRS_pc_Feats = S1_PRS_pc.select(['VH_p50','VV_p50']).clip(aoi);`
 
-var S1_PRS_pc_Feats = S1_PRS_pc.select(['VH_p50','VV_p50']).clip(aoi);
-
-// Reproject to WGS 84 UTM zone 32n               
-var S1_PRS_pc_Feats = S1_PRS_pc_Feats.reproject({crs: 'EPSG:32632',scale: 60}); 
+__Reproject to WGS 84 UTM zone 32n__               
+`var S1_PRS_pc_Feats = S1_PRS_pc_Feats.reproject({crs: 'EPSG:32632',scale: 60});` 
   
-// Check projection information
-print('sent1_Projection, crs, and crs_transform:', S1_PRS_pc_Feats.projection());    
+__Check projection information__
+`print('sent1_Projection, crs, and crs_transform:', S1_PRS_pc_Feats.projection());`    
 
 // Calculate inter-quartile range (IQR), a measure of Sentinel-1 backscatter variability
 var PRS_VV_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VV_p75').subtract(S1_PRS_pc.select('VV_p25'))).rename('VV_iqr'));
