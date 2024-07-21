@@ -9,7 +9,7 @@ __Import the boundary__ <br>
 `var table = table2;` <br>
 
 __Load Sentinel-1 for the post-rainy season__<br>
-`var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')<br>
+`var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')` <br>
     .filterDate('2024-01-01', '2024-01-31')
     .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))
     .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))
