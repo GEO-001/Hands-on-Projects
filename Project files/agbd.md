@@ -9,13 +9,13 @@ __Import the boundary__ <br>
 `var table = table2;` <br>
 
 __Load Sentinel-1 for the post-rainy season__<br>
-```var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')
+`var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')
     .filterDate('2024-01-01', '2024-01-31')
     .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))
     .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))
     .filter(ee.Filter.eq('instrumentMode', 'IW'))
     .filter(ee.Filter.eq('orbitProperties_pass', 'ASCENDING'))
-    .filterBounds(aoi); <br>```
+    .filterBounds(aoi);` <br>
 
 __Prepare inter-quartile range (IQR)__
 var S1_PRS_pc = S1_PRS.reduce(ee.Reducer.percentile([25,50,75]));
