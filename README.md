@@ -17,7 +17,9 @@ Flight planning to ...............<br>
 EdX course
 - [Mapping Study Area locations for Undergraduate research projects](study_area)
 - Salary expectation prediction using Linear regression
+  
 ![Ose River Park](https://github.com/GEO-001/project_images/blob/main/ose_river_park.png)
+
 ## Tools and References
 The following tools, sources, and learning platforms have the achievement of the aforementioned projects and have augmented my expertise in GIS & Remote Sensing.
 ### Softwares
