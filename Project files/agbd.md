@@ -11,18 +11,18 @@ __Import the boundary__ <br>
 __Load Sentinel-1 for the post-rainy season__ <br>
 `var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')` <br>
    ` .filterDate('2024-01-01', '2024-01-31')` <br>
-   ` .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))` <br>
-  `  .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))` <br>
-  `  .filter(ee.Filter.eq('instrumentMode', 'IW'))` <br>
-  `  .filter(ee.Filter.eq('orbitProperties_pass', 'ASCENDING'))` <br>
-  `  .filterBounds(aoi);` <br>
+   `.filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))` <br>
+  ` .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))` <br>
+  ` .filter(ee.Filter.eq('instrumentMode', 'IW'))` <br>
+  ` .filter(ee.Filter.eq('orbitProperties_pass', 'ASCENDING'))` <br>
+  ` .filterBounds(aoi);` <br>
 
 __Prepare inter-quartile range (IQR)__ <br>
 `var S1_PRS_pc = S1_PRS.reduce(ee.Reducer.percentile([25,50,75]));`
 
 __Convert to natural units (linear units, which can be averaged)__ <br>
-`var S1_PRS_pc = ee.Image(10).pow(S1_PRS_pc.divide(10));
-var S1_PRS_pc_Feats = S1_PRS_pc.select(['VH_p50','VV_p50']).clip(aoi);`
+`var S1_PRS_pc = ee.Image(10).pow(S1_PRS_pc.divide(10));` <br>
+`var S1_PRS_pc_Feats = S1_PRS_pc.select(['VH_p50','VV_p50']).clip(aoi);` <br>
 
 __Reproject to WGS 84 UTM zone 32n__ <br>       
 `var S1_PRS_pc_Feats = S1_PRS_pc_Feats.reproject({crs: 'EPSG:32632',scale: 60});` 
@@ -31,8 +31,8 @@ __Check projection information__ <br>
 `print('sent1_Projection, crs, and crs_transform:', S1_PRS_pc_Feats.projection());`    
 
 __Calculate inter-quartile range (IQR), a measure of Sentinel-1 backscatter variability__ <br>
-`var PRS_VV_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VV_p75').subtract(S1_PRS_pc.select('VV_p25'))).rename('VV_iqr'));
-var PRS_VH_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VH_p75').subtract(S1_PRS_pc.select('VH_p25'))).rename('VH_iqr'));`
+`var PRS_VV_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VV_p75').subtract(S1_PRS_pc.select('VV_p25'))).rename('VV_iqr'));` <br>
+`var PRS_VH_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VH_p75').subtract(S1_PRS_pc.select('VH_p25'))).rename('VH_iqr'));` <br>
 
 // Print the image to the console
 print('Post-rainy Season VV IQR', PRS_VV_iqr);
