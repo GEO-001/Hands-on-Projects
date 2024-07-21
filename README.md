@@ -12,11 +12,8 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - Soil pH classification
   To determine optimum liming rates (CaO addition) for soil acidity rectification
 - Unmanned Aerial Vehicle (UAV)/Drone Flight Planning<br>
-Flight planning to ...............<br>
-EdX course
 - [Mapping Study Area locations for Undergraduate research projects](study_area)
-- Salary expectation prediction using Linear regression
-- Undergraduate Thesis (Effects of Mycorrhizal inoculation and watering regime on growth of Baobab _(Adansonia digitata)_
+
 ## Tools and References
 The following tools, sources, and learning platforms have the achievement of the aforementioned projects and have augmented my expertise in GIS & Remote Sensing.
 ### Softwares
