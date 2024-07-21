@@ -8,7 +8,7 @@ We will derive the forest mask from the ESA Global Land Cover dataset (2020).
 __Import the boundary__ <br>
 `var table = table2;` <br>
 
-__Load Sentinel-1 for the post-rainy season__<br>
+__Load Sentinel-1 for the post-rainy season__ <br>
 `var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')
     .filterDate('2024-01-01', '2024-01-31')
     .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))
