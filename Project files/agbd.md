@@ -23,7 +23,7 @@ __Convert to natural units (linear units, which can be averaged)__ <br>
 `var S1_PRS_pc = ee.Image(10).pow(S1_PRS_pc.divide(10));` <br>
 `var S1_PRS_pc_Feats = S1_PRS_pc.select(['VH_p50','VV_p50']).clip(aoi);` <br>
 
-__Reproject to WGS 84 UTM zone 32n__ <br>       
+__Reproject to WGS 84 UTM zone 32n__ <br>
 `var S1_PRS_pc_Feats = S1_PRS_pc_Feats.reproject({crs: 'EPSG:32632',scale: 60});` 
   
 __Check projection information__ <br>
