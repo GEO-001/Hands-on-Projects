@@ -7,10 +7,10 @@ We will derive the forest mask from the ESA Global Land Cover dataset (2020).
 __Import the boundary__ <br>
 `var table = table2;` <br>
 
-__Load Sentinel-1 for the post-rainy season__ <br>
+_Load Sentinel-1 for the post-rainy season_ <br>
 `var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')` <br>
-   ` .filterDate('2024-01-01', '2024-01-31')` <br>
-   `.filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))` <br>
+  ` .filterDate('2024-01-01', '2024-01-31')` <br>
+  ` .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))` <br>
   ` .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))` <br>
   ` .filter(ee.Filter.eq('instrumentMode', 'IW'))` <br>
   ` .filter(ee.Filter.eq('orbitProperties_pass', 'ASCENDING'))` <br>
@@ -51,26 +51,26 @@ __Create a function to mask clouds using the Sentinel-2 QA band__ <br>
 `var qa = image.select('QA60');` <br>
 
   __Bits 10 and 11 are clouds and cirrus, respectively__ <br>
-  var cloudBitMask = ee.Number(2).pow(10).int();
-  var cirrusBitMask = ee.Number(2).pow(11).int();
+  `var cloudBitMask = ee.Number(2).pow(10).int();` <br>
+  `var cirrusBitMask = ee.Number(2).pow(11).int();` <br>
 
   // Both flags should be set to zero, indicating clear conditions.
-  var mask = qa.bitwiseAnd(cloudBitMask).eq(0).and(
-            qa.bitwiseAnd(cirrusBitMask).eq(0));
+  `var mask = qa.bitwiseAnd(cloudBitMask).eq(0).and(` <br>
+            `qa.bitwiseAnd(cirrusBitMask).eq(0));` <br>
 
-  // Return the masked and scaled data.
+__Return the masked and scaled data__
   return image.updateMask(mask).divide(10000);
 }
 
-// Filter clouds from Sentinel-2 for a given period.
-var composite = s2.filterDate('2024-01-01', '2024-01-31')
+__Filter clouds from Sentinel-2 for a given period__
+`var composite = s2.filterDate('2024-01-01', '2024-01-31')
                   // Pre-filter to get less cloudy granules.
                   .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))
                   .map(maskS2clouds)
-                  .select('B2', 'B3', 'B4','B5','B6','B7','B8','B11', 'B12'); 
+                  .select('B2', 'B3', 'B4','B5','B6','B7','B8','B11', 'B12'); ` <br>
 
-// Reproject to WGS 84 UTM zone 32n                  
-var S2_composite = composite.median().reproject({crs: 'EPSG:32632', scale: 60});
+__Reproject to WGS 84 UTM zone 32n__           
+`var S2_composite = composite.median().reproject({crs: 'EPSG:32632', scale: 60});` <br>
 
 // Check projection information                 
 print('sent2_Projection, crs, and crs_transform:', S2_composite.projection());
