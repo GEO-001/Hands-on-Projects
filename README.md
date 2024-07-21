@@ -1,8 +1,8 @@
 # Introduction
 This repository summarizes my hands-on projects in GIS & Remote Sensing applications in Forest management and environmental conservation.
 ## Projects
-- [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](Project files/forest canopy height assessment/Forest_height.ipynb)
-- [Random Forest classification of Cumberland County, Maine, USA](AGBD)
+- [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/forest%20canopy%20height%20assessment/Forest_height.ipynb)
+- - [Random Forest classification of Cumberland County, Maine, USA](AGBD)
 - Supervised classification of Calaveras, CA, USA using Machine learning
 - Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA.
 - [Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR](https://code.earthengine.google.com/f2561a93702c749269f1a932b73b1965?noload=1)
