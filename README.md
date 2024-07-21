@@ -1,7 +1,6 @@
 # Introduction
 This repository summarizes my hands-on projects in GIS & Remote Sensing applications in Forest management and environmental conservation.
 ## Projects
-- Undergraduate Thesis (Effects of Mycorrhizal inoculation and watering regime on growth of Baobab _(Adansonia digitata)_
 - [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](forest canopy height assessment)](https://github.com/GEO-001/hands-on-projects/tree/main/Project%20files/forest%20canopy%20height%20assessment)
 - [Random Forest classification of Cumberland County, Maine, USA](AGBD)
 - Supervised classification of Calaveras, CA, USA using Machine learning
@@ -17,9 +16,7 @@ Flight planning to ...............<br>
 EdX course
 - [Mapping Study Area locations for Undergraduate research projects](study_area)
 - Salary expectation prediction using Linear regression
-  
-![Ose River Park](https://github.com/GEO-001/project_images/blob/main/ose_river_park.png)
-
+- Undergraduate Thesis (Effects of Mycorrhizal inoculation and watering regime on growth of Baobab _(Adansonia digitata)_
 ## Tools and References
 The following tools, sources, and learning platforms have the achievement of the aforementioned projects and have augmented my expertise in GIS & Remote Sensing.
 ### Softwares
