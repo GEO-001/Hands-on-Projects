@@ -2,7 +2,7 @@
 This repository summarizes my hands-on projects in GIS & Remote Sensing applications in Forest management and environmental conservation.
 ## Projects
 - Undergraduate Thesis (Effects of Mycorrhizal inoculation and watering regime on growth of Baobab _(Adansonia digitata)_
-- [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](salary-prediction.ipynb)
+- [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](forest canopy height assessment)
 - [Random Forest classification of Cumberland County, Maine, USA](AGBD)
 - Supervised classification of Calaveras, CA, USA using Machine learning
 - Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA.
