@@ -4,7 +4,6 @@ More information about GEDI L4B is available at: https://daac.ornl.gov/GEDI/guid
 Sentinel-1, Sentinel-2, SRTM elevation, and slope data are predictor variables.
 We will derive the forest mask from the ESA Global Land Cover dataset (2020).
 
-
 __Import the boundary__ <br>
 `var table = table2;` <br>
 
@@ -47,11 +46,11 @@ __Display S1 inter-quartile range imagery__ <br>
 __Load Sentinel-2 spectral reflectance data__  <br>
 `var s2 = ee.ImageCollection('COPERNICUS/S2_SR');` <br>
 
-__Create a function to mask clouds using the Sentinel-2 QA band__
+__Create a function to mask clouds using the Sentinel-2 QA band__ <br>
 `function maskS2clouds(image) { ` <br>
-  `var qa = image.select('QA60');` <br>
+`var qa = image.select('QA60');` <br>
 
-  // Bits 10 and 11 are clouds and cirrus, respectively.
+  __Bits 10 and 11 are clouds and cirrus, respectively__ <br>
   var cloudBitMask = ee.Number(2).pow(10).int();
   var cirrusBitMask = ee.Number(2).pow(11).int();
 
