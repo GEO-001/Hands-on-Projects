@@ -4,7 +4,7 @@ More information about GEDI L4B is available at: https://daac.ornl.gov/GEDI/guid
 Sentinel-1, Sentinel-2, SRTM elevation, and slope data are predictor variables.
 We will derive the forest mask from the ESA Global Land Cover dataset (2020).
 
-__Import the boundary__ <br>
+_Import the boundary_ <br>
 `var table = table2;` <br>
 
 _Load Sentinel-1 for the post-rainy season_ <br>
@@ -16,51 +16,51 @@ _Load Sentinel-1 for the post-rainy season_ <br>
   ` .filter(ee.Filter.eq('orbitProperties_pass', 'ASCENDING'))` <br>
   ` .filterBounds(aoi);` <br>
 
-__Prepare inter-quartile range (IQR)__ <br>
+_Prepare inter-quartile range (IQR)_ <br>
 `var S1_PRS_pc = S1_PRS.reduce(ee.Reducer.percentile([25,50,75]));`
 
-__Convert to natural units (linear units, which can be averaged)__ <br>
+_Convert to natural units (linear units, which can be averaged)_ <br>
 `var S1_PRS_pc = ee.Image(10).pow(S1_PRS_pc.divide(10));` <br>
 `var S1_PRS_pc_Feats = S1_PRS_pc.select(['VH_p50','VV_p50']).clip(aoi);` <br>
 
-__Reproject to WGS 84 UTM zone 32n__ <br>
+_Reproject to WGS 84 UTM zone 32n_ <br>
 `var S1_PRS_pc_Feats = S1_PRS_pc_Feats.reproject({crs: 'EPSG:32632',scale: 60});` 
   
-__Check projection information__ <br>
+_Check projection information_ <br>
 `print('sent1_Projection, crs, and crs_transform:', S1_PRS_pc_Feats.projection());`    
 
-__Calculate inter-quartile range (IQR), a measure of Sentinel-1 backscatter variability__ <br>
+_Calculate inter-quartile range (IQR), a measure of Sentinel-1 backscatter variability_ <br>
 `var PRS_VV_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VV_p75').subtract(S1_PRS_pc.select('VV_p25'))).rename('VV_iqr'));` <br>
 `var PRS_VH_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VH_p75').subtract(S1_PRS_pc.select('VH_p25'))).rename('VH_iqr'));` <br>
 
-__Print the image to the console__  <br>
+_Print the image to the console_  <br>
 `print('Post-rainy Season VV IQR', PRS_VV_iqr);` <br>
-__Print the image to the console__ ` <br>
+_Print the image to the console_ ` <br>
 `print('Post-rainy Season VV IQR', PRS_VH_iqr);` <br>
 
-__Display S1 inter-quartile range imagery__ <br>
+_Display S1 inter-quartile range imagery_ <br>
 `Map.addLayer(PRS_VV_iqr.clip(aoi), {'bands': 'VV_iqr', min: 0,max: 0.1}, 'Sentinel-1 IW VV');` <br>
 `Map.addLayer( PRS_VH_iqr.clip(aoi), {'bands': 'VH_iqr', min: 0,max: 0.1}, 'Sentinel-1 IW VH');` <br>
 
------
-__Load Sentinel-2 spectral reflectance data__  <br>
+---
+_Load Sentinel-2 spectral reflectance data_  <br>
 `var s2 = ee.ImageCollection('COPERNICUS/S2_SR');` <br>
 
-__Create a function to mask clouds using the Sentinel-2 QA band__ <br>
+_Create a function to mask clouds using the Sentinel-2 QA band_ <br>
 `function maskS2clouds(image) { ` <br>
 `var qa = image.select('QA60');` <br>
 
-  __Bits 10 and 11 are clouds and cirrus, respectively__ <br>
+_Bits 10 and 11 are clouds and cirrus, respectively_ <br>
   `var cloudBitMask = ee.Number(2).pow(10).int();` <br>
   `var cirrusBitMask = ee.Number(2).pow(11).int();` <br>
 
-  // Both flags should be set to zero, indicating clear conditions.
+_Both flags should be set to zero, indicating clear conditions_ <br>
   `var mask = qa.bitwiseAnd(cloudBitMask).eq(0).and(` <br>
             `qa.bitwiseAnd(cirrusBitMask).eq(0));` <br>
 
-__Return the masked and scaled data__
-  return image.updateMask(mask).divide(10000);
-}
+_Return the masked and scaled data_
+  `return image.updateMask(mask).divide(10000);` <br>
+}` <br>
 
 __Filter clouds from Sentinel-2 for a given period__
 `var composite = s2.filterDate('2024-01-01', '2024-01-31')
