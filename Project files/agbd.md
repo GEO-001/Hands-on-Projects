@@ -43,13 +43,13 @@ __Display S1 inter-quartile range imagery__ <br>
 `Map.addLayer(PRS_VV_iqr.clip(aoi), {'bands': 'VV_iqr', min: 0,max: 0.1}, 'Sentinel-1 IW VV');` <br>
 `Map.addLayer( PRS_VH_iqr.clip(aoi), {'bands': 'VH_iqr', min: 0,max: 0.1}, 'Sentinel-1 IW VH');` <br>
 
---------
+-----
 __Load Sentinel-2 spectral reflectance data__  <br>
 `var s2 = ee.ImageCollection('COPERNICUS/S2_SR');` <br>
 
-// Create a function to mask clouds using the Sentinel-2 QA band.
-function maskS2clouds(image) {
-  var qa = image.select('QA60');
+__Create a function to mask clouds using the Sentinel-2 QA band__
+`function maskS2clouds(image) { ` <br>
+  `var qa = image.select('QA60');` <br>
 
   // Bits 10 and 11 are clouds and cirrus, respectively.
   var cloudBitMask = ee.Number(2).pow(10).int();
