@@ -15,8 +15,6 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - [Mapping Study Area locations for Undergraduate research projects](study_area)
 
 ## Tools and References
-The following tools, sources, and learning platforms have the achievement of the aforementioned projects and have augmented my expertise in GIS & Remote Sensing.
-### Softwares
 - GIS: QGIS, ArcGIS Pro
 - Computing & Processing: R, Python, Google Earth Engine
 - Flight Planning & UAV Imagery processing: Drone2Map, WebODM, QGround Control
