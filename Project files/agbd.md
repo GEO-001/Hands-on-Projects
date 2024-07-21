@@ -1,17 +1,18 @@
-// This script models forest aboveground biomass (AGB) using the Global Ecosystem Dynamics Investigation (GEDI) L4B.
-// The GEDI L4B product provides 1 km x 1 km estimates of mean aboveground biomass density (AGBD). 
-// More information about GEDI L4B is available at: https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html.
-// Sentinel-1, Sentinel-2, SRTM elevation, and slope data are predictor variables.
-// We will derive the forest mask from the ESA Global Land Cover dataset (2020).
+This script models forest aboveground biomass (AGB) using the Global Ecosystem Dynamics Investigation (GEDI) L4B.
+The GEDI L4B product provides 1 km x 1 km estimates of mean aboveground biomass density (AGBD). 
+More information about GEDI L4B is available at: https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html.
+Sentinel-1, Sentinel-2, SRTM elevation, and slope data are predictor variables.
+We will derive the forest mask from the ESA Global Land Cover dataset (2020).
 
-__Import the boundary__
-// This script models forest aboveground biomass (AGB) using the Global Ecosystem Dynamics Investigation (GEDI) L4B.
-// The GEDI L4B product provides 1 km x 1 km estimates of mean aboveground biomass density (AGBD). 
-// More information about GEDI L4B is available at: https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html.
-// Sentinel-1, Sentinel-2, SRTM elevation and slope data are predictor variables.
-// We will derive the forest mask from the ESA Global Land Cover dataset (2020).
-// Import the boundary
-var table = table2;
+__Import the boundary__ <br>
+This script models forest aboveground biomass (AGB) using the Global Ecosystem Dynamics Investigation (GEDI) L4B.
+The GEDI L4B product provides 1 km x 1 km estimates of mean aboveground biomass density (AGBD). 
+More information about GEDI L4B is available at: https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html.
+Sentinel-1, Sentinel-2, SRTM elevation and slope data are predictor variables.
+We will derive the forest mask from the ESA Global Land Cover dataset (2020).
+Import the boundary
+
+```var table = table2;``` <br>
 
 // Load Sentinel-1 for the post-rainy season.
 var S1_PRS = ee.ImageCollection('COPERNICUS/S1_GRD')
