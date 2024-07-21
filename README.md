@@ -1,7 +1,7 @@
 # Introduction
 This repository summarizes my hands-on projects in GIS & Remote Sensing applications in Forest management and environmental conservation.
 ## Projects
-- [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](Forest_height.ipynb)
+- [Forest Canopy height assessment in Fellagi, Kainji National Park, Niger, Nigeria](Project files/forest canopy height assessment/Forest_height.ipynb)
 - [Random Forest classification of Cumberland County, Maine, USA](AGBD)
 - Supervised classification of Calaveras, CA, USA using Machine learning
 - Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA.
