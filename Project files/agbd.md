@@ -15,9 +15,9 @@ __Load Sentinel-1 for the post-rainy season__ <br>
     .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))
     .filter(ee.Filter.eq('instrumentMode', 'IW'))
     .filter(ee.Filter.eq('orbitProperties_pass', 'ASCENDING'))
-    .filterBounds(aoi);```<br>
+    .filterBounds(aoi);```
 
-__Prepare inter-quartile range (IQR)__ <br>
+**__Prepare inter-quartile range (IQR)__**
 ```var S1_PRS_pc = S1_PRS.reduce(ee.Reducer.percentile([25,50,75]));```
 
 // Convert to natural units (linear units, which can be averaged)
