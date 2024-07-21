@@ -34,10 +34,10 @@ __Calculate inter-quartile range (IQR), a measure of Sentinel-1 backscatter vari
 `var PRS_VV_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VV_p75').subtract(S1_PRS_pc.select('VV_p25'))).rename('VV_iqr'));` <br>
 `var PRS_VH_iqr = S1_PRS_pc_Feats.addBands((S1_PRS_pc.select('VH_p75').subtract(S1_PRS_pc.select('VH_p25'))).rename('VH_iqr'));` <br>
 
-// Print the image to the console
-print('Post-rainy Season VV IQR', PRS_VV_iqr);
-// Print the image to the console
-print('Post-rainy Season VV IQR', PRS_VH_iqr);
+__Print the image to the console__
+`print('Post-rainy Season VV IQR', PRS_VV_iqr);` <br>
+__Print the image to the console__
+`print('Post-rainy Season VV IQR', PRS_VH_iqr);` <br>
 
 // Display S1 inter-quartile range imagery
 Map.addLayer(PRS_VV_iqr.clip(aoi), {'bands': 'VV_iqr', min: 0,max: 0.1}, 'Sentinel-1 IW VV');
