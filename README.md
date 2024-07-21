@@ -15,7 +15,7 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - Unmanned Aerial Vehicle (UAV)/Drone Flight Planning<br>
 Flight planning to ...............<br>
 EdX course
-- Mapping of Study Area locations for undergraduate research projects at the Federal University of Agriculture, Abeokuta, (FUNAAB) Ogun, Nigeria.
+- [Mapping Study Area locations for Undergraduate research projects](study_area)
 - Salary expectation prediction using Linear regression
 
 ## Tools and References
