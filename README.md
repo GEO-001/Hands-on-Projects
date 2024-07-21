@@ -6,7 +6,7 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - [Random Forest classification of Cumberland County, Maine, USA](AGBD)
 - Supervised classification of Calaveras, CA, USA using Machine learning
 - Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA.
-- Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR
+- [Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR](https://code.earthengine.google.com/f2561a93702c749269f1a932b73b1965?noload=1)
 - Monitoring & Mapping Carbon(iv)oxide fluxes using OCO2 & OCO3 Satellite Data
 - 2015 Drought Assessment in California, USA
 - Triangular Greenness Vegetative Index classification <br> To assess fertilizer performance on Quinoa
