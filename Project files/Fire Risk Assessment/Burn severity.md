@@ -1,7 +1,7 @@
-Summary of Burn Severity Mapping Using NBR
+Burn Severity Assessment
 
 **Objective**
-The goal is to assess burn severity by mapping the impact of the 2017 wildfire in Arkansas. This is achieved using the Normalized Burn Ratio (NBR), which is calculated from satellite imagery taken before and after the fire.
+The goal is to assess burn severity by mapping the impact of the 2017 wildfire in Arkansas. This is achieved using the Normalized Burn Ratio (NBR), which is calculated from satellite imagery taken before and after the fire. Mapping Using NBR
 
 Methodology:
 
