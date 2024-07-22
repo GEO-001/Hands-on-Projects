@@ -6,7 +6,6 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - Supervised classification of Calaveras, CA, USA using Machine learning
 - [Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Fire%20Risk%20Assessment/Burn%20severity.md)
 - [Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Above%20Ground%20Biomass%20Modeling/agbd.md)
-- Monitoring & Mapping Carbon(iv)oxide fluxes using OCO2 & OCO3 Satellite Data
 - 2015 Drought Assessment in California, USA
 - Triangular Greenness Vegetative Index classification <br> To assess fertilizer performance on Quinoa
 - Soil pH classification
