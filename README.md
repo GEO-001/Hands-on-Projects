@@ -21,9 +21,9 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
   
 ### Remote Sensing Imagery Sources
 - NASA Earth Data
-- GIOVANNI IMERGM_07 NETCDF precipitation data
-- MODIS NDVI data for drought assessment
-- GEDI LiDAR data
+- [GIOVANNI IMERGM_07 NETCDF precipitation data](https://giovanni.gsfc.nasa.gov/giovanni/)
+- [MODIS NDVI data for drought assessment](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php)
+- [GEDI LiDAR data](https://www.earthdata.nasa.gov/learn/articles/gedi-l4b-data)
 - Google Earth Engine (Landsat 8, SRTM Global Elevation data,
 
 ### Guided Learning Platforms (MOOCS)
