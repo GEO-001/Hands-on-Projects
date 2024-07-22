@@ -13,7 +13,7 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - Unmanned Aerial Vehicle (UAV)/Drone Flight Planning<br>
 - [Mapping Study Area locations for Undergraduate research projects](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/study_area_maps.ipynb)
 
-## Tools and References
+## Tools & Computing Platforms
 - GIS: QGIS, ArcGIS Pro
 - Computing & Processing: R, Python, Google Earth Engine
 - Flight Planning & UAV Imagery processing: Drone2Map, WebODM, QGround Control
