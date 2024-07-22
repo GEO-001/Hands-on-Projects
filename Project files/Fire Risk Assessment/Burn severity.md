@@ -8,6 +8,7 @@ The goal is to assess burn severity by mapping the impact of the 2017 wildfire i
 Satellite Platforms: Sentinel-2 or Landsat 8
 
 **Methodology**
+
 Imagery: Captured at two time periods: before and after the fire.
 Time Frame:
 
