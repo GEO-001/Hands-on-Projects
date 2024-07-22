@@ -4,9 +4,11 @@ The primary goal of this study was to estimate above-ground biomass (AGB) in a s
 This approach combined advanced remote sensing technologies with rigorous data processing and modeling techniques to achieve accurate and reliable biomass estimates. The integration of multiple data sources enhanced the robustness of the estimates, providing valuable information for ecological and management applications.
 ### Computing Platform
 - Google Earth Engine ([Link to GEE script](https://code.earthengine.google.com/0af39cec763971264c7bac54d589a3f9?noload=1))
-### Data Sources
 
-- GEDI LiDAR Data: Provides high-resolution vertical canopy profiles and height metrics essential for estimating AGB.
+### Study Area
+
+### Data Sources
+- GEDI LiDAR Data (Level 4B): Provides high-resolution vertical canopy profiles and height metrics essential for estimating AGB.
 https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html.
 - SRTM (Shuttle Radar Topography Mission) Data: Offers elevation information necessary for terrain correction and biomass modeling.
 - Sentinel-1 Data: Provides radar backscatter information useful for understanding vegetation structure and biomass estimation.
@@ -25,9 +27,12 @@ The study began by gathering data from the GEDI LiDAR, SRTM, Sentinel-1, Sentine
 - ESA Global Land Cover Data: Used to classify land cover types and refine biomass estimates.
   
 ##### Data Integration and Analysis
-- Feature Extraction: From GEDI LiDAR and Sentinel data, relevant features were extracted and analyzed to capture the relationships between vegetation structure and biomass.
-- Biomass Modeling: Applied statistical and machine learning models to integrate GEDI LiDAR data with radar and optical imagery for accurate biomass estimation.
-- Validation: The biomass estimates were validated using ground truth data where available, and comparisons were made to ensure model accuracy.
+- Feature Extraction
+  From GEDI LiDAR and Sentinel data, relevant features were extracted and analyzed to capture the relationships between vegetation structure and biomass.
+- Biomass Modeling
+  Applied statistical and machine learning models to integrate GEDI LiDAR data with radar and optical imagery for accurate biomass estimation.
+- Validation
+  The biomass estimates were validated using ground truth data where available, and comparisons were made to ensure model accuracy.
 
 ### Results and Visualization
 The results included AGB estimates across the study area, visualized using thematic maps. These maps illustrated biomass distribution and provided insights into vegetation patterns.
