@@ -3,7 +3,7 @@
 The primary goal of this study was to estimate above-ground biomass (AGB) in a specified region using a combination of GEDI LiDAR data, SRTM elevation data, Sentinel-1 and Sentinel-2 imagery, and ESA Global Land Cover data.
 This approach combined advanced remote sensing technologies with rigorous data processing and modeling techniques to achieve accurate and reliable biomass estimates. The integration of multiple data sources enhanced the robustness of the estimates, providing valuable information for ecological and management applications.
 ### Computing Platform
-- Google Earth Engine ([Link to GEE script](https://code.earthengine.google.com/0af39cec763971264c7bac54d589a3f9?noload=1)
+- Google Earth Engine ([Link to GEE script](https://code.earthengine.google.com/0af39cec763971264c7bac54d589a3f9?noload=1))
 ### Data Sources
 
 - GEDI LiDAR Data: Provides high-resolution vertical canopy profiles and height metrics essential for estimating AGB.
