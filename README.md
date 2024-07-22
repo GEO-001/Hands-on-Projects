@@ -20,14 +20,14 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - Ecosystem Services Modeling: InVEST
   
 ### Remote Sensing Imagery Sources
-- NASA Earth Data
+- [NASA Earth Data](https://www.earthdata.nasa.gov/)
 - [GIOVANNI IMERGM_07 NETCDF precipitation data](https://giovanni.gsfc.nasa.gov/giovanni/)
 - [MODIS NDVI data for drought assessment](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php)
 - [GEDI LiDAR data](https://www.earthdata.nasa.gov/learn/articles/gedi-l4b-data)
-- Google Earth Engine (Landsat 8, SRTM Global Elevation data,
+- [Google Earth Engine](https://earthengine.google.com/https://earthengine.google.com/)
 
 ### Guided Learning Platforms (MOOCS)
-- NASA Applied Remote Sensing Training
+- [NASA Applied Remote Sensing Training](https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset)
 - Coursera
 - EdX - Wageningen University & Research
 - GEO University, China
