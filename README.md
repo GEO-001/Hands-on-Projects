@@ -7,7 +7,7 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - [Burn Severity Assessment of 2017 Fire in Arkansas, AR, USA](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Fire%20Risk%20Assessment/Burn%20severity.md)
 - [Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Above%20Ground%20Biomass%20Modeling/agbd.md)
 - 2015 Drought Assessment in California, USA
-- Triangular Greenness Vegetative Index classification <br> To assess fertilizer performance on Quinoa
+- Triangular Greenness Vegetative Index classification
 - Soil pH classification
   To determine optimum liming rates (CaO addition) for soil acidity rectification
 - Unmanned Aerial Vehicle (UAV)/Drone Flight Planning<br>
