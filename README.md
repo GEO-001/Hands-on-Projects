@@ -12,7 +12,6 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
   To determine optimum liming rates (CaO addition) for soil acidity rectification
 - Unmanned Aerial Vehicle (UAV)/Drone Flight Planning<br>
 - [Mapping Study Area locations for Undergraduate research projects](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/study_area_maps.ipynb)
-- Advanced Geospatial Analysis
 
 ## Tools and References
 - GIS: QGIS, ArcGIS Pro
