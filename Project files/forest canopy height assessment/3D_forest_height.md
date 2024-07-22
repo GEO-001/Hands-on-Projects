@@ -24,3 +24,4 @@ High-Quality Rendering: The final 3D render is saved as a high-quality PNG image
 Image Display: The rendered 3D image is read and displayed using the png and grid packages.
 
 This comprehensive approach facilitates a detailed visualization of forest height variations, enhancing the analysis of forest structure in the Fellagi Forest region.
+The script of this analysis as well as visualizations can be found [here.]([forest_height](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/forest%20canopy%20height%20assessment/Forest_height.ipynb))
