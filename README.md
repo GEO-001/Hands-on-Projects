@@ -8,9 +8,6 @@ This repository summarizes my hands-on projects in GIS & Remote Sensing applicat
 - [Modeling Aboveground Biomass Density using Sentinel 1, Sentinel 2 and GEDI LiDAR](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Above%20Ground%20Biomass%20Modeling/agbd.md)
 - [2015 Drought Assessment in California, USA](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Drought%20Assessment/drought.ipynb)
 - Triangular Greenness Vegetative Index classification
-- Soil pH classification
-  To determine optimum liming rates (CaO addition) for soil acidity rectification
-- Unmanned Aerial Vehicle (UAV)/Drone Flight Planning<br>
 - [Mapping Study Area locations for Undergraduate research projects](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/study_area_maps.ipynb)
 
 ## Tools & Computing Platforms
