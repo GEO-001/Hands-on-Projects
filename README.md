@@ -13,7 +13,7 @@ This repository showcases my experience with Geographic Information Systems (GIS
 ## Computing Platforms and Tools 
 - GIS Software: QGIS, ArcGIS Pro
 - Programming: R, Python, Google Earth Engine
-- Remote Sensing Imagery: [NASA Earth Data](https://www.earthdata.nasa.gov/), [GEDI LiDAR data](https://www.earthdata.nasa.gov/learn/articles/gedi-l4b-data), [MODIS NDVI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php), [GIOVANNI IMERGM_07 precipitation data]..(https://giovanni.gsfc.nasa.gov/giovanni/), [Earth Engine Catalog](https://developers.google.com/earth-engine/datasets/)
+- Remote Sensing Imagery: [NASA Earth Data](https://www.earthdata.nasa.gov/), [GEDI LiDAR data](https://www.earthdata.nasa.gov/learn/articles/gedi-l4b-data), [MODIS NDVI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php), [GIOVANNI IMERGM_07 Precipitation data](https://giovanni.gsfc.nasa.gov/giovanni/), [Earth Engine Catalog](https://developers.google.com/earth-engine/datasets/)
 - UAV Imagery Acquisition & Processing: Drone2Map, WebODM, QGround Control
 - Ecosystem Services Modeling: InVEST
 
