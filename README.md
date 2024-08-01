@@ -1,5 +1,5 @@
 # Introduction
-This repository showcases my experience with Geographic Information Systems (GIS) and remote sensing technologies across various domains, including forestry, agriculture, land use planning, natural hazard assessment, and environmental risk management.
+This repository showcases my experience with Geographic Information Systems (GIS) and remote sensing technologies across various domains, including forestry, agriculture, land use planning, natural hazard assessment, and environmental risk management.<br>
 _Please click on each project below to explore detailed information._
 ## Projects
 - [Study Location Mapping](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/study_area_maps.ipynb)
