@@ -13,6 +13,7 @@ This repository showcases my experience with Geographic Information Systems (GIS
 - Vegetative Index Classification of Unmanned Aerial Vehicle (UAV)-Captured Imagery <br>
 <br>
 NB: _Please click on each project below to explore detailed information._<br>
+
 ---
 
 ## Computing Platforms and Tools 
