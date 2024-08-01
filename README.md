@@ -1,6 +1,5 @@
 # Introduction
 This repository showcases my experience with Geographic Information Systems (GIS) and remote sensing technologies across various domains, including forestry, agriculture, land use planning, natural hazard assessment, and environmental risk management.<br>
-_Please click on each project below to explore detailed information._
 
 ---
 ## Projects
@@ -12,7 +11,8 @@ _Please click on each project below to explore detailed information._
 - [Aboveground Biomass Density Estimation using Sentinel 1, Sentinel 2 and GEDI LiDAR](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Above%20Ground%20Biomass%20Modeling/agbd.md)
 - [Drought Assessment using High Resolution Satelite Imagery](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Drought%20Assessment/drought.ipynb)
 - Vegetative Index Classification of Unmanned Aerial Vehicle (UAV)-Captured Imagery
-
+NB: _Please click on each project below to explore detailed information._
+---
 ## Computing Platforms and Tools 
 - GIS Software: QGIS, ArcGIS Pro
 - Programming: R, Python, Google Earth Engine
