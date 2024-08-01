@@ -12,7 +12,7 @@ This repository showcases my experience with Geographic Information Systems (GIS
 - [Drought Assessment using High Resolution Satelite Imagery](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Drought%20Assessment/drought.ipynb)
 - Vegetative Index Classification of Unmanned Aerial Vehicle (UAV)-Captured Imagery <br>
 <br>
-NB: _Please click on each project below to explore detailed information._
+NB: _Please click on each project below to explore detailed information._<br>
 ---
 
 ## Computing Platforms and Tools 
