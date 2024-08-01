@@ -4,7 +4,7 @@ This repository showcases my experience with Geographic Information Systems (GIS
 ---
 ## Projects
 - [Study Location Mapping](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/study_area_maps.ipynb)
-- [Random Forest classification in Google Earth Engine](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Land%20Cover%20Classification/Random%20Forest.md)
+- [Random Forest Classification in Google Earth Engine](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Land%20Cover%20Classification/Random%20Forest.md)
 - Supervised Land classification using QGIS Maximum Likelihood Classifier Algorithm
 - [Burn Severity Assessment](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Fire%20Risk%20Assessment/Burn%20severity.md)
 - [3D Forest Height Assessment using R](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/forest%20canopy%20height%20assessment/3D_forest_height.md)
