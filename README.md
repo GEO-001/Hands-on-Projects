@@ -19,8 +19,5 @@ This repository showcases my experience with Geographic Information Systems (GIS
 - Programming: R, Python, Google Earth Engine
 - Remote Sensing: [NASA Earth Data](https://www.earthdata.nasa.gov/), [GEDI LiDAR](https://www.earthdata.nasa.gov/learn/articles/gedi-l4b-data), [MODIS NDVI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php), [GIOVANNI](https://giovanni.gsfc.nasa.gov/giovanni/), [Earth Engine Catalog](https://developers.google.com/earth-engine/datasets/)
 - UAV Imagery Acquisition & Processing: Drone2Map, WebODM, QGround Control
-- Ecosystem Services Modeling: InVEST
-
-
   
 
