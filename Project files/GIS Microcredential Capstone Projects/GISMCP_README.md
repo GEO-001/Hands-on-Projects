@@ -1,6 +1,6 @@
 # GIS Microcredential Capstone Projects
 This folder contains four projects I conducted on the Ayobo - Olorunda road, a 5.1km long and 20m wide road that
-runs from Megida, (Lat. 6.6006◦, Long. 3.2417◦) through Ishefun, Olorunda (Lat. 6.5752◦, Long. 3.2045◦), Lagos, Nigeria. 
+runs from Megida, (Lon. 3.2417◦, Lat. 6.6006◦) through Ishefun, Olorunda, (Long. 3.2045◦, Lat. 6.5752◦) Lagos, Nigeria. 
 
 These projects are part of my microcredential in Geospatial Data Collection, Analysis & Interpretation using GIS Technology (GIS) 
 at Seneca Polytechnic, Canada. They include:
