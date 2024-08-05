@@ -18,7 +18,7 @@ NB: _Please click on each project to explore detailed information or refer to_ [
 ---
 
 ## Computing Platforms and Tools 
-- GIS Software: QGIS, ArcGIS Pro, ArcGIS Online, ArcView
+- Software: QGIS, ArcGIS Pro, ArcGIS Online, ArcView, Survey 123, StoryMaps
 - Programming: R, Python, Google Earth Engine
 - Remote Sensing: [NASA Earth Data](https://www.earthdata.nasa.gov/), [GEDI LiDAR](https://www.earthdata.nasa.gov/learn/articles/gedi-l4b-data), [MODIS NDVI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php), [GIOVANNI](https://giovanni.gsfc.nasa.gov/giovanni/), [Earth Engine Catalog](https://developers.google.com/earth-engine/datasets/)
 - UAV Imagery Acquisition & Processing: Drone2Map, WebODM, QGround Control
