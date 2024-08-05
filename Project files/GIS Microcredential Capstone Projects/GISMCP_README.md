@@ -4,9 +4,9 @@ runs from Megida, (Lon. 3.2417◦, Lat. 6.6006◦) through Ishefun, Olorunda, (L
 
 These projects are part of my microcredential in Geospatial Data Collection, Analysis & Interpretation using GIS Technology (GIS) 
 at Seneca Polytechnic, Canada. They include:
-- [Traffic Analysis and Safety](https://github.com/GEO-001/Hands-on-Projects/blob/main/Project%20files/GIS%20Microcredential%20Capstone%20Projects/ArcGIS%20Field%20Maps%20for%20Spatial%20Data%20Collection.pdf): Analyzing traffic patterns to improve road safety and optimize traffic flow.
-- [Military Checkpoint Establishment](https://github.com/GEO-001/Hands-on-Projects/blob/main/Project%20files/GIS%20Microcredential%20Capstone%20Projects/Military%20Checkpoint%20Establishment.pdf): Developing GIS solutions for the strategic placement of military checkpoints.
-- [Field Maps App for Spatial Data Collection](https://github.com/GEO-001/Hands-on-Projects/blob/main/Project%20files/GIS%20Microcredential%20Capstone%20Projects/ArcGIS%20Field%20Maps%20for%20Spatial%20Data%20Collection.pdf): Utilizing the ESRI Field Maps app to gather and manage spatial data efficiently.
-- [200m Boundary Delineation](https://github.com/GEO-001/Hands-on-Projects/blob/main/Project%20files/GIS%20Microcredential%20Capstone%20Projects/Buffer%20analysis-boundary_delineation.pdf): Defining a 200-meter jurisdiction for real estate purposes.
+- [Traffic Analysis and Safety](https://drive.google.com/file/d/1-LFS324v1APkLt7mgybzn6i0YaM3ZvI9/view?usp=drive_link): Analyzing traffic patterns to improve road safety and optimize traffic flow.
+- [Military Checkpoint Establishment](https://drive.google.com/file/d/1RTem5bdt5AWOhkDCwZXbOuGIlpn6BWOd/view?usp=drive_link): Developing GIS solutions for the strategic placement of military checkpoints.
+- [Field Maps App for Spatial Data Collection](https://drive.google.com/file/d/1ZHNpqS4IoPLO0mEBtyCZPubhGNZ9jCwR/view?usp=drive_link): Utilizing the ESRI Field Maps app to gather and manage spatial data efficiently.
+- [200m Boundary Delineation](https://drive.google.com/file/d/1EK24vgjmQXcwOm9iOd3pRIJ8ZcDDoQ_b/view?usp=drive_link): Defining a 200-meter jurisdiction for real estate purposes.
 
 **N.B.:** In case of an error such as "_unable to render code block_", refreshing the page should resolve it.
