@@ -10,5 +10,4 @@ at Seneca Polytechnic, Canada. They include:
 - [200m Boundary Delineation](https://drive.google.com/file/d/1EK24vgjmQXcwOm9iOd3pRIJ8ZcDDoQ_b/view?usp=drive_link): Defining a 200-meter jurisdiction for real estate purposes.
 
 ---
-**NB** 
-Please click each project see the project details. (_A google drive link opens a PDF copy of the project_)
+**NB:** Please click each project see the project details. (_A google drive link opens a PDF copy of the project_)
