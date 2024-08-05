@@ -11,6 +11,7 @@ This repository showcases my experience with Geographic Information Systems (GIS
 - [Aboveground Biomass Density Estimation using Sentinel 1, Sentinel 2 and GEDI LiDAR](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Above%20Ground%20Biomass%20Density/agbd.ipynb)
 - [Drought Assessment using High Resolution Satelite Imagery](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Drought%20Assessment/drought.ipynb)
 - [Vegetative Index Classification of Unmanned Aerial Vehicle (UAV)-Captured Imagery](https://github.com/GEO-001/hands-on-projects/blob/main/Project%20files/Vegetation%20Index%20Classification/TGI_veg_index.ipynb) <br>
+- [GIS Microcredential Capstone Projects, Seneca Polytechnic, Canada](https://github.com/GEO-001/Hands-on-Projects/tree/main/Project%20files/GIS%20Microcredential%20Capstone%20Projects)
 
 NB: _Please click on each project to explore detailed information or refer to_ [_Project files_ ](https://github.com/GEO-001/hands-on-projects/tree/main/Project%20files)
 
