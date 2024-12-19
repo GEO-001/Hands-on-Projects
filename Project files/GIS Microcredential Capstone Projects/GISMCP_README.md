@@ -4,9 +4,9 @@ runs from Megida, (Lon. 3.2417◦, Lat. 6.6006◦) through Ishefun, Olorunda, (L
 
 These projects are part of my microcredential in Geospatial Data Collection, Analysis & Interpretation using GIS Technology (GIS) 
 at Seneca Polytechnic, Canada. They include:
-- [Traffic Analysis and Safety](https://drive.google.com/file/d/1-LFS324v1APkLt7mgybzn6i0YaM3ZvI9/view?usp=drive_link): Analyzing traffic patterns to improve road safety and optimize traffic flow.
-- [Military Checkpoint Establishment](https://drive.google.com/file/d/1RTem5bdt5AWOhkDCwZXbOuGIlpn6BWOd/view?usp=drive_link): Developing GIS solutions for the strategic placement of military checkpoints.
-- [Field Maps App for Spatial Data Collection](https://drive.google.com/file/d/1ZHNpqS4IoPLO0mEBtyCZPubhGNZ9jCwR/view?usp=drive_link): Utilizing the ESRI Field Maps app to gather and manage spatial data efficiently.
+- [Traffic Analysis and Safety](https://arcg.is/1Sr9e90): Analyzing traffic patterns to improve road safety and optimize traffic flow.
+- [Military Checkpoint Establishment](https://arcg.is/arr5f1): Developing GIS solutions for the strategic placement of military checkpoints.
+- [Field Maps App for Spatial Data Collection](https://arcg.is/0eKfn9): Utilizing the ESRI Field Maps app to gather and manage spatial data efficiently.
 - [200m Boundary Delineation](https://arcg.is/1rGqa10): Defining a 200-meter jurisdiction for real estate purposes.
 
 ---
